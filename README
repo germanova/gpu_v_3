@@ -1,0 +1,6 @@
+Parallel implementation of the Ising model in C++ using CUDA
+requires NVCC compiler
+
+run using:
+nvcc -g ising_model_GPU.cu params_GPU.cu -o ising_model
+./ising_model
